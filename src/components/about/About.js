@@ -19,11 +19,12 @@ const useStyles = makeStyles((theme) => ({
 
 export const About = () => {
   const classes = useStyles();
-  const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                  designer & developer. I'm always down for something new and challenging!
-                  I'm here to help you create beautifully formatted websites. 
-                  My projects mostly includes web development.`;
+  const greetings = "Hola mundo!";
+  const aboutme = `Mi nombre es ${FirstName} ${LastName}, un programador en  
+                  constante aprendizaje. Mis habilidades computacionales son principalmente en Wordpress, Php, Html, Css.
+                    Siempre me encuentro dispuesto a aceptar nuevos desafios, la constancia, inteligencia y disciplina permiten resolver cualquier problema.
+                  Estoy aqui para ayudar a construir tus ideas en el mundo digital. 
+                  Mis proyectos siempre estan dispuestos a mejorar`;
 
   return (
     <section id="about">
@@ -47,7 +48,7 @@ export const About = () => {
             </p>
             <a href="#contact" className="contact-btn">
               <i className="fas fa-terminal"></i>
-              <Typography component='span'> Send me a message.</Typography>
+              <Typography component='span'> Enviame un mensaje.</Typography>
             </a>
           </div>
         </div>

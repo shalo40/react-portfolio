@@ -1,13 +1,13 @@
 {
     "basics": {
-        "name": "Mark Tan",
-        "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
-        "phone": "(XXX) XXX-XXXX",
+        "name": "Gonzalo Castillo",
+        "label": "Programador Computacional",
+        "email": "g.castillo.dlf@r40studio.cl",
+        "phone": "(+569) 96122622",
         "picture": "mt.png",
-        "x_title": "Hello, I'm",
-        "job1": "Web",
-        "job2": "Developer",
+        "x_title": "Hola mundo!",
+        "job1": "Desarrollo Web",
+        "job2": "Back End Developer",
         "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
         "summary": "based in Angeles, Philippines.",
         "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
@@ -15,28 +15,28 @@
         "location": {
             "address": "XX XXXXXstreet",
             "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "city": "Antofagasta",
+            "country": "Chile",
+            "countryCode": "CL",
+            "region": "Sudamerica"
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
+                "username": "g.castillo.dlf@gmail.com",
+                "url": "mailto:g.castillo.dlf@gmail.com",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "GonzaloCastillo",
+                "url": "https://www.linkedin.com/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "username": "Shalo40",
+                "url": "https://github.com/shalo40",
                 "x_icon": "fab fa-github"
             },
             {
@@ -61,9 +61,9 @@
     },
     "work": [
         {
-            "company": "Company",
-            "position": "President",
-            "website": "http://company.com",
+            "company": "R40 Studio",
+            "position": "Company CEO",
+            "website": "http://r40studio.cl",
             "startDate": "2013-01-01",
             "endDate": "2014-01-01",
             "summary": "Description...",
@@ -83,9 +83,18 @@
     ],
     "education": [
         {
-            "institution": "University",
-            "area": "Software Development",
-            "studyType": "Bachelor",
+            "institution": "INACAP",
+            "area": "Ingeneria en informatica",
+            "studyType": "En curso",
+            "startDate": "2011-01-01",
+            "endDate": "2013-01-01",
+            "gpa": "4.0",
+            "courses": ["DB1101 - Basic SQL"]
+        },
+        {
+            "institution": "AIEP",
+            "area": "Programador Computacional",
+            "studyType": "Tecnico de nivel superior",
             "startDate": "2011-01-01",
             "endDate": "2013-01-01",
             "gpa": "4.0",
@@ -112,29 +121,30 @@
     "skills": [
         {
             "name": "Web Development",
-            "level": "Master",
+            "level": "Junior",
             "keywords": ["HTML", "CSS", "Javascript"]
         }
     ],
     "languages": [
         {
-            "language": "German",
-            "fluency": "Native speaker"
+            "language": "Español",
+            "fluency": "Hablador Nativo"
         },
         {
             "language": "English",
             "fluency": "Fluent speaker"
-        },
-        {
-            "language": "French",
-            "fluency": "Good knowledge"
         }
     ],
     "interests": [
         {
-            "name": "Wildlife",
+            "name": "Videojuegos",
+            "keywords": ["Ferrets", "Unicorns"]
+        },
+        {
+            "name": "Bicicleta",
             "keywords": ["Ferrets", "Unicorns"]
         }
+
     ],
     "references": [
         {

@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
 
 export const Contact = () => {
   const classes = useStyles();
-  const greetings = "Say hello.";
+  const greetings = "Estoy listo para trabajar en tu idea";
 
   const form = useRef();
 
@@ -45,7 +45,7 @@ export const Contact = () => {
     Swal.fire({
       position: 'center',
       icon: 'success',
-      title: 'You have sent an email!',
+      title: 'Tu correo ha sido enviado, Gracias!',
       showConfirmButton: false,
       timer: 1500
     })
@@ -62,7 +62,7 @@ export const Contact = () => {
               <form ref={form} onSubmit={sendEmail} className={classes.form}>
                 <TextField
                   id="outlined-name-input"
-                  label="Name"
+                  label="Nombre"
                   type="text"
                   size="small"
                   variant="filled"
@@ -71,7 +71,7 @@ export const Contact = () => {
                 />
                 <TextField
                   id="outlined-password-input"
-                  label="Email"
+                  label="Correo electronico"
                   type="email"
                   size="small"
                   variant="filled"
@@ -80,7 +80,7 @@ export const Contact = () => {
                 />
                 <TextField
                   id="outlined-password-input"
-                  label="Message"
+                  label="Escribe tu mensaje"
                   type="textarea"
                   size="small"
                   multiline
@@ -91,7 +91,7 @@ export const Contact = () => {
                 />
                 <button type="submit" value="Send" className="submit-btn">
                 <i className="fas fa-terminal"></i>
-                  <Typography component='span'> Send Message</Typography>
+                  <Typography component='span'> Enviar mensaje</Typography>
                 </button>
               </form>
             </div>
